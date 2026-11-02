@@ -1,0 +1,14 @@
+Package: DataCleaner
+Title: Tool for Cleaning Data
+Version: 0.0.0.9000
+Authors@R: 
+    person("Nayelis", "Sotolongo", , "nayelis2@usf.edu", role = c("aut", "cre"))
+Description: This package helps users clean datasets in R with 
+    tools that identify missing values, remove duplicate rowns,
+    and summarize data. 
+Depends: R (>= 3.1.2)
+Imports: dplyr
+License: MIT + file LICENSE
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
